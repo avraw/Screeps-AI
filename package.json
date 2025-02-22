@@ -1,0 +1,18 @@
+{
+  "name": "screeps-ai",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "build": "rollup -c",
+    "push": "npm run build && npx screeps upload dist/main.js --branch simulation"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@screeps/common": "^2.15.5",
+    "@screeps/launcher": "^4.1.1",
+    "rollup": "^4.34.8"
+  }
+}
