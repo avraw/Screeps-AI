@@ -1,0 +1,3 @@
+.screepsrc
+node_modules/
+*.log
